@@ -71,9 +71,3 @@ In this project, I analyzed Yelp's open business dataset by building a data pipe
 You can access the detailed documentation and screenshots of the results from the following PDF:
 
 [Project Documentation PDF](link_to_pdf_with_screenshot) <!-- Replace this with your actual PDF link -->
-
----
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

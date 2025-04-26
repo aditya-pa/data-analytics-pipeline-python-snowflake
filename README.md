@@ -38,7 +38,7 @@ In this project, I analyzed Yelp's open business dataset by building a data pipe
 
 ## Files in the Project
 
-1. **Python Code** (`analysis.py`):
+1. **Python Code** (`data-partition.ipynb`):
    - The Python script to split the data and upload it to AWS S3.
    - Sentiment analysis using the `TextBlob` library, creating a UDF in Snowflake.
 

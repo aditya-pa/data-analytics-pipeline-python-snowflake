@@ -4,8 +4,8 @@ create or replace table yelp_bussiness(bussiness_text variant)
 Copy into yelp_bussiness
 from 's3://namastesql-aditya/yelp/yelp_academic_dataset_business.json'
 credentials = (
-    AWS_KEY_ID = 'AKIAR2EYURJYRJNEGUWC'
-    AWS_SECRET_KEY = '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'
+    AWS_KEY_ID = 'AKIA*******RJYRJNE****'
+    AWS_SECRET_KEY = 'DH/QKdq*****m7fz****o8AvTLVkTun******0i/'
 )
 FILE_FORMAT = (TYPE = JSON);
 
@@ -17,8 +17,8 @@ create or replace table yelp_reviews (review_text variant)
 Copy into yelp_reviews
 from 's3://namastesql-aditya/yelp/'
 credentials = (
-    AWS_KEY_ID = 'AKIAR2EYURJYRJNEGUWC'
-    AWS_SECRET_KEY = 'DH/QKdq63yu9m7fz7uiOo8AvTLVkTunEpK3zv0i/'
+    AWS_KEY_ID = 'AKIA*******RJYRJNE****'
+    AWS_SECRET_KEY = 'DH/QKdq*****m7fz****o8AvTLVkTun******0i/'
 )
 FILE_FORMAT = (TYPE = JSON);
 ------------------------------------------------------------------------
